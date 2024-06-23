@@ -27,7 +27,7 @@ To install Open-Key-Finder, follow these steps:
 
 4. Create venv file with your github cookie
 
-	### You can get the login cookie by going to the dev tools on your browser then: Application>Cookies>https://github.com and search for something like "user_session"
+	#### You can get the login cookie by going to the dev tools on your browser then: Application>Cookies>https://github.com and search for something like "user_session"
 
 	```shell
 	touch .env
