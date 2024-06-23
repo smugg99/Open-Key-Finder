@@ -26,8 +26,8 @@ To install Open-Key-Finder, follow these steps:
 	```
 
 4. Create venv file with your github cookie
-	You can get the login cookie by going to the dev tools on your browser then
-	Application>Cookies>https://github.com and search for something like "user_session"
+
+	### You can get the login cookie by going to the dev tools on your browser then: Application>Cookies>https://github.com and search for something like "user_session"
 
 	```shell
 	touch .env
@@ -37,7 +37,7 @@ To install Open-Key-Finder, follow these steps:
 	echo 'OUTPUT_FILE="output.json"' >> .env
 	```
 	
-5. Run the script
+1. Run the script
 	```shell
 	venv/bin/python main.py
 	```
